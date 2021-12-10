@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #000; 
+    font-size: 1.2rem;  
+    margin-bottom: 12px;
+    font-weight: bold;
+    
+}
+
+body{
+   max-width: 2000px;
+   overflow-x: hidden;
+   background-image: radial-gradient(circle at 8.4% 30.6%, #e9dbdb 0, #e9dbda 3.33%, #e9dbd8 6.67%, #e9dbd7 10%, #e8dbd6 13.33%, #e7dcd5 16.67%, #e6dcd5 20%, #e5ddd4 23.33%, #e4ddd4 26.67%, #e2ded4 30%, #e1ded4 33.33%, #dfded4 36.67%, #dedfd5 40%, #dcdfd5 43.33%, #dbe0d6 46.67%, #d9e0d7 50%, #d8e0d8 53.33%, #d6e1d9 56.67%, #d5e1db 60%, #d4e1dc 63.33%, #d3e1dd 66.67%, #d2e1df 70%, #d2e1e0 73.33%, #d2e1e2 76.67%, #d2e1e3 80%, #d2e1e4 83.33%, #d3e0e5 86.67%, #d3e0e6 90%, #d4e0e7 93.33%, #d5dfe7 96.67%, #d7dfe8 100%);
+}
+
+#tituloCategorias{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+  
+form{
+    height: 700px;
+    width: 700px;
+    margin-left: 65vh;
+    background-color: #f8f2ee;
+    padding-top: 29px;
+    box-shadow: 10px 10px 10px #cccccc;
+}
+
+body, h1, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+#campos{
+    height: 250px;
+    width: 400px;
+
+}
+
+.cadastroCategorias  {
+    width: 270px;
+    height: 55px;
+    float: left;
+    background-color: #ededed;
+    text-align: right;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    
+}
+
+.enviar input{
+    width: 300px;
+    height: 50px;
+    background-color: #99e599;
+    color: #000;
+    margin-top: 10px;
+    font-size: 1.0em;
+    margin-left: 52px;
+    cursor: pointer;
+}
+
+.enviar{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+.cadastroInserirDados {
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box; 
+}
+
+.excluir, .pesquisar, .editar{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#consultaDeDados{
+    width: 700px;
+    min-height: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+}
+
+#tblConsulta{
+    width: 100%;
+    min-height: 30px;
+    height: auto;
+}
+
+#tblTitulo{
+    width: 100%;
+    height: 90px;
+    background-color: #99e599;
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+    
+}
+
+#tblLinhas{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.tblColunas{
+    width: 82%;
+    height: 30px;
+    text-align: center;
+    background-color: darkseagreen;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Conteudo CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;    
+}
+body{
+    background-color: #0a0c0f;
+    overflow-x: hidden;
+    
+}
+
+header{
+    height: 370px;
+    width: 100%;
+    background-color: #0a0c0f;
+    border-bottom: solid 1px #000;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+}
+
+#menu{
+    width: 100%;
+    height: 210px;
+}
+
+#titulo-menu{
+    float: left;
+}
+
+#logo{
+    height: 220px;
+    width: 359px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;   
+}
+
+#banner{
+    height: 290px;
+    width: 358px;
+    border-top: 1px solid;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+    
+}
+
+#submenu{
+    height: 140px;
+    width: 100%;
+    background-color:#0A0C0F;
+    /* background-color: #180000; */
+}
+
+#cabecalho{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 29px;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+}
+
+#itens-icones{
+    height: 140px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    border-bottom: solid 1px #000;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+}
+
+.logo-adm{
+    height: 70px;
+    background-image: linear-gradient(to right, #FF0000 0%, #ff00ab 100%);
+    border-radius: 15px;
+    width: 80px;
+    margin-left: 10px;
+    object-fit: contain;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+}
+
+.logo-adm:hover{
+    background-image: linear-gradient(to right, #FF0000 0%, #ff00ab 100%);
+    border-radius: 35px;
+    transition: 1s;
+}
+
+#logout{
+    margin-left: auto;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#conteudo-titulo{
+    height:100px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+}
+
+#conteudo-main{
+    height: 1000px;
+    width: 100%;
+    background-color: #000;
+    border: solid 1px #000;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+}
+
+footer{
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+    border: solid 1px #000;
+    border-image: linear-gradient(135deg, #FF0000 0%, #ff00ab 100%) 1;
+}
+
+h1{
+    padding-top: 29px;
+    padding-left: 29px;
+    letter-spacing: 2px;
+    font-size: 2.9rem;
+    font-family: 'Ephesis', sans-serif;
+}
+
+h2{
+  font-size: 1.0rem;
+}
+
+h3{
+    font-size: 1.4rem;
+
+}
+
+h4{
+    font-size: 2.3rem;
+    margin-left: 15px;
+    padding-top: 20px;
+}
