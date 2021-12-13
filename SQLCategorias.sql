@@ -1,6 +1,3 @@
-#Criar um database
-create database dbcategorias;
-
 #Mostra todos os databases existentes no BD
 show databases;
 
@@ -19,17 +16,8 @@ create table tblCategorias (
 	idCategorias int not null auto_increment primary key,
     tipo varchar(45) not null,
     unique index(idCategorias)
-
 );
-
 drop tables tblCategorias;
-
-#Tabela de Usuarios
-create database dbusuarios;
-
-#database de usuarios
-use dbusuarios;
-
 
 #Tabela de Usuarios
 create table tblUsuarios (
@@ -39,16 +27,11 @@ create table tblUsuarios (
     senha varchar(100) not null
 );
 
-create database dbusuarios2;
-
-use dbusuarios2;
-
 create table tblUsuarios2 (
 	idUsuarios2 int not null auto_increment primary key,
     login varchar(100) not null,
     senha varchar(100) not null
 );
-
 
 show tables;
 
@@ -65,13 +48,6 @@ create table tblContatos (
     celular varchar(50) not null,
     telefone varchar(50) not null
 );
-
-
-# database dbprodutos
-create database dbprodutos;
-
-use dbprodutos;
-
 select * from tblProdutos;
 
 #Tabela de Produtos
@@ -120,7 +96,7 @@ desc tblProdutos;
 
 select *from tblProdutos;
 
-
+insert into tblProdutos ( nome, preco, desconto, descricao, destaques, imagem, idCategorias ) values ( 'SAS', '141', '1414', '23432', 0, 'ddd2af88d891ca8dab77d86caf39044f.png', 0 );
 
 #Tratar o select depois
 select tblFilme, tblClassificacao.faixaEtaria from tblFilme inner join tblClassificacao on tblClassificacao.idClassificacao = tblFilme.idClassificacao;

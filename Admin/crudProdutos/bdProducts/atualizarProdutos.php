@@ -12,7 +12,7 @@ function editarProdutos($arrayProdutos)
     descricao = '".$arrayProdutos['descricao']."',
     imagem = '".$arrayProdutos['imagem']."',
     destaques = ".$arrayProdutos['destaques'].",
-    idCategorias = ".$arrayCliente['idCategorias']."
+    idCategorias = ".$arrayProdutos['idCategorias']."
     where idProdutos = ".$arrayProdutos['id'];
 
     $conexao = conexaoMysql();

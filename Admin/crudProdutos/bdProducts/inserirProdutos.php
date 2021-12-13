@@ -30,8 +30,8 @@ function inserirProdutos ($arrayProdutos)
 
     $conexao = conexaoMysql();
     
-    echo($sql);
-     die;
+    // echo($sql);
+    //  die;
     if (mysqli_query($conexao, $sql))
             return true;
         else

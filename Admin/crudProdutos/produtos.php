@@ -26,7 +26,7 @@
     $descricao = $_SESSION['produtos']['descricao'];
     $destaques = $_SESSION['produtos']['destaques'];
     $imagem = $_SESSION['produtos']['imagem'];
-    $tipo =  $_SESSION['produtos']['tipo'];
+    // $tipo =  $_SESSION['produtos']['tipo'];
 
     // Aqui recebe o idCategorias
     $idCategorias = $_SESSION['produtos']['idCategorias'];
@@ -195,6 +195,7 @@
                            <td class="tblColunas registros"><?= $rsProdutos['destaques'] ?>
                             <img class="imagem-pic" src="<?=NOME_DIRETORIO_FILE.$rsProdutos['imagem']?>" alt="">
                             </td>
+                            <td class="tblColunas registros"><?= $rsProdutos['idCategorias'] ?></td>
                            <td class="tblColunas registros">
                            <a href="controlesProducts/editaDadosProdutos.php?id=<?=$rsProdutos['idProdutos']?>">
                                    <img id="imagem-pic" src="imagens/edit.png" alt="Editar" title="Editar" class="editar">

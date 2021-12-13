@@ -12,6 +12,7 @@
     $destaques = (int) 0;
     $imagem = (string) null;
     $idCategorias = (int) null;
+    
 
     if(isset($_GET['id']))
         $id = (int) $_GET['id'];
@@ -28,6 +29,7 @@
 
         $nomeImagem = $_GET['nomeImagem'];
         $idCategorias = $_POST['sltCategorias'];
+        // $tipo = $_POST['tipo'];
 
         if (strtoupper($_GET['modo']) == 'ATUALIZAR')
         {
@@ -61,12 +63,12 @@
         else {
 
             $produtos = array(
-                "id"          => $id,
-                "nome"        => $nome,
-                "preco"       => $preco,
-                "desconto"    => $desconto,
-                "descricao"   => $descricao,
-                "destaques"   => $destaques,
+                "id"           => $id,
+                "nome"         => $nome,
+                "preco"        => $preco,
+                "desconto"     => $desconto,
+                "descricao"    => $descricao,
+                "destaques"    => $destaques,
                 "idCategorias" => $idCategorias,
                 "imagem"   => $imagem
 

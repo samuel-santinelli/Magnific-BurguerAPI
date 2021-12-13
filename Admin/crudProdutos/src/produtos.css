@@ -106,6 +106,7 @@ input{
     width: 230px;
     margin-top: 120px;
     color: #000;
+    border: 0;
 }
 
 
@@ -535,5 +536,11 @@ h5{
     margin-left: 15px;
     padding-top: 100px;
     font-family: 'Ephesis', sans-serif;
+
+}
+
+select, option{
+    color: #000;
+    border: solid 1px #fff;
 
 }

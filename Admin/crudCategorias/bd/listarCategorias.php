@@ -4,7 +4,7 @@ require_once( '../crudCategorias/bd/conexaoMysql.php');
 
 function listarCategorias()
 {
-   $sql = "select tblProdutos. *, tblCategorias.tipo from tblProdutos inner join tblCategorias on tblCategorias.idCategorias = tblProdutos.idCategorias;";
+   $sql = "select * from tblCategorias order by tipo";
 
 
    $conexao = conexaoMysql1();
