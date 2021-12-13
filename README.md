@@ -1,3 +1,3 @@
-# Projeto que destina-se implementar as minhas habilidades em: html, css, javascript e php.
+# Projeto chegando a reta final, teve como destino implementar as minhas habilidades em: HTML, CSS3, javaScript, PHP, JSON e API.
 
-# Project that aims to implement my skills in: html, css, javascript and php.
+### Project reaching the final stretch, aimed to implement my skills in: HTML, CSS3, javaScript, PHP, JSON e API.
