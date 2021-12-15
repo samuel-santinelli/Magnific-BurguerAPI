@@ -8,7 +8,7 @@ set_error_handler(function($severity, $message, $file, $line){
 
 });
 
-define ('SRC', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/samuel/ProjectHamburgueria2/admin/crudContatos/');
+define ('SRC', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/samuel/ProjectHamburgueria2/Admin/crudContatos/');
 
 
 const BD_SERVER = 'localhost';

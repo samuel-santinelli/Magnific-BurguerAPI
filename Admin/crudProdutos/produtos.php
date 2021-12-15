@@ -167,7 +167,7 @@
            <div id="consultaDeDados">
                <table id="tblConsulta">
                    <tr>
-                       <td id="tblTitulo" colspan="5">
+                       <td id="tblTitulo" colspan="8">
                            <h1> Consulta de Dados</h1>
                        </td>
                    </tr>
@@ -178,6 +178,7 @@
                        <td class="tblColunas destaque"> Descrição</td>
                        <td class="tblColunas destaque"> Imagem</td>
                        <td class="tblColunas destaque"> Destaques</td>
+                       <td class="tblColunas destaque"> Opções</td>
                        
                    </tr>
                    <?php

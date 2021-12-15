@@ -1,6 +1,5 @@
 <?php
 
-
 require_once(SRC. 'bdContacts/listarContatos.php');
 
 
