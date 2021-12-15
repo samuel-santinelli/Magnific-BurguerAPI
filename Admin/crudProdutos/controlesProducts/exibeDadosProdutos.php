@@ -41,8 +41,6 @@ function criarArray($objeto)
         "destaques"    => $rsDados['destaques'],
         "idCategorias" => $rsDados['idCategorias'],
         "imagem"       => $rsDados['imagem']
-   
-        
     );
         $cont+=1;
     }

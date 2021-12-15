@@ -18,7 +18,7 @@
     
 
     //Chamando no banco pela queryString
-    //http://localhost/ds2t20212/samuel/ProjectHamburgueria2/produtos?nome=Cheddar
+    //http://localhost/ds2t20212/samuel/ProjectHamburgueria2/Admin/api/produtos?nome=Cheddar
 
     require_once('../crudProdutos/controlesProducts/exibeDadosProdutos.php');
 
