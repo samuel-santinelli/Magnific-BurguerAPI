@@ -26,12 +26,11 @@ function buscarProdutos($idProdutos)
     return $select;
 }
 
-function buscar($idProdutos)
+function buscar($id)
 {
-    $sql = "select tblProdutos. *, tblCategorias.tipo from tblProdutos inner join tblCategorias on tblCategorias.idCategorias = tblProdutos.idCategorias".$idProdutos;
+    $sql = "select * from tblProdutos where tblProdutos.idCategorias = ".$id;
 
     $conexao = conexaoMysql();
-   
    
     $select = mysqli_query($conexao, $sql);
  
@@ -50,4 +49,7 @@ function buscarNome($nome)
 
     return $select;   
 }
+
+
+
 ?>

@@ -7,18 +7,38 @@
     
     $config = [
         'settings' => [
-            'displayErrorDetails' => true # change this <------
+            'displayErrorDetails' => true, # change this <------
+            'determineRouteBeforeAppMiddleware' => true,
+            'displayErrorDetails' => true,
+            'addContentLengthHeader' => false
         ],
     ];
-    require_once("vendor/autoload.php");
 
-    $app = new \Slim\App();
+    $app = new \Slim\App($config);
 
     $app->get('/categorias', function($request, $response, $args){
-        return $response    ->withStatus(200)  
-                            ->withHeader('Content-Type', 'application/json')
-                            ->write('{"message":"Categoria encontrada com sucesso!"}');    
+
+        require_once("../crudCategorias/functions/config.php");
+        require_once('../crudCategorias/controles/exibeDadosCategorias.php');
+
+        if($listDados = exibirCategorias())
+        
+        if($listDadosArray = criarArray($listDados))
+            $listDadosJSON = criarJSON($listDadosArray);
+
     
+        if($listDadosArray)
+        {
+            return $response    ->withStatus(200)  
+                                ->withHeader('Content-Type', 'application/json')
+                                ->write($listDadosJSON);           
+        
+        }else{
+            return $response -> withStatus(200)
+            ->withHeader('Content-Type', 'application/json')
+            ->write('{"message":"não ha dados para essa requisição"}');
+        }
+
     });
 
     $app->run();

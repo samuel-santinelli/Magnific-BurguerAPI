@@ -1,7 +1,7 @@
 <?php
 require_once("../crudCategorias/functions/config.php");
 
-require_once('bd/listarDados.php');
+require_once(SRC.'bd/listarCategorias.php');
 
 function exibirCategorias()
 {
@@ -19,7 +19,7 @@ function buscarCategorias2($id)
 
 function buscarNomeCategorias($tipo)
 {
-    $dados = buscarTipo($tipo);
+    $dados = buscarCategorias($tipo);
 
     return $dados;
 }
@@ -31,6 +31,7 @@ function criarArray($objeto)
     while($rsDados = mysqli_fetch_assoc($objeto))
     {
         $arrayDados[$cont] = array(
+        "idCategorias"   => $rsDados['idCategorias'],
         "tipo"           => $rsDados['tipo']
     );
         $cont+=1;

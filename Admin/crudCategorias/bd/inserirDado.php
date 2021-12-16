@@ -16,7 +16,7 @@ function inserirCategorias ($arrayCategorias)
                 )
             ";
 
-            echo($sql);
+         
 
           //Chamando a função que estabelece a conexão com Banco de dados
           $conexao = conexaoMysql1();
