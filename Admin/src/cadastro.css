@@ -13,8 +13,6 @@
 }
 
 body{
-    height: 100%;
-    width: 100%;
     overflow-x: hidden;
 }
 
@@ -27,12 +25,11 @@ body{
 }
   
 form{
-    height: auto;
+    height: 600px;
     width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 480px;
     background-color: #0A0C0F;
-    margin-top: 50px;
+    margin-top: 150px;
     min-height: 1000;
     border: solid 0.5px;
     border-image: linear-gradient(105deg, #D99879 0%, #D99879 100%) 1;
@@ -46,12 +43,15 @@ body, h1, p{
 }
 
 label{
-    font-size: 1.4rem;
+    font-size: 1.9rem;
+    color: #D99879;
 }
 
 #campos{
     height: 250px;
     width: 400px;
+    margin-left: 250px;
+    margin-top: 60px;
 
 }
 
@@ -63,14 +63,11 @@ label{
     font-size: 1.1em;
     padding-top: 10px;
     padding-right: 50px;
-    box-sizing: border-box;
-    margin-right: 10px;
-    margin-top: 7px;
     
 }
 
 input{
-    width: 317px;
+    width: 327px;
     height: 50px;
     border-top: 0px;
     border-left: 0px;
@@ -80,13 +77,14 @@ input{
 
 input:hover{
     cursor: pointer;
+   
 }
 
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
-    border: 0px;
-    border-bottom: solid 1px #000 ;
+    border-bottom: solid 1px #D99871 ;
     outline: 0;
+    transition: 2s;
     
 } 
 
@@ -214,7 +212,7 @@ body{
 header{
     height: 550px;
     width: 100%;
-    background-color:#1c2430;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -312,13 +310,14 @@ header{
 #conteudo-main{
     height: 1000px;
     width: 100%;
-    background-color: #0A0C0F;
-   
+    background-image: url("../imagens/banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer{
-    height: 80px;
-    padding: 20px;
+
+
     text-align: center;
     border: solid 1px #000;
     border-image: linear-gradient(105deg, #D99879 0%, #D99879 100%) 1;
@@ -355,9 +354,22 @@ h5{
 }
 
 #button-cadastro{
-    background-color: #550e02;
+    background-color: #D99879;
     height: 60px;
     width: 80px;
-    color: #fff;
+    border-radius: 20px;
+    color: #000;
     font-size: 1.1rem;
 }
+
+input:hover{
+    background-color: #D99871;
+    transition: 1s;
+    border: 0;
+    color: #000;
+    border-radius: 40px;
+    padding-left: 10px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+

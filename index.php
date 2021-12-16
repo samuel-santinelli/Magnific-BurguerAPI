@@ -95,11 +95,11 @@
                     </div>
                 </div>
                 <ul id="lista">
-                    <li class="lista"> MENU <a href=""></a> </li>
+                    <li class="lista"><?=$modo?><a href=""></a> </li>
 
-                    <li class="lista"> MENU <a href=""></a></li>
+                    <li class="lista"><?=$modo?><a href=""></a></li>
 
-                    <li class="lista"> MENU<a href=""></a> </li>
+                    <li class="lista"><?=$modo?><a href=""></a> </li>
 
                     <li class="lista"> MENU <a href=""></a></li>
 

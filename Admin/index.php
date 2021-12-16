@@ -20,7 +20,7 @@
 
                     <form enctype="multipart/form-data" action="autenticar.php" name="frmCadastro" method="post">
                     <div id="campos">
-                    <label>Login</label>
+                    <label>Entre no seu Usuario</label>
             </div>
             <div class="cadastroInserirDados">
                 <input type="text" name="usuario" value="" placeholder="Digite seu nome" maxlength="45">
@@ -28,19 +28,19 @@
 
            <!-- Input do Telefone -->
            <div class="cadastroCategorias">
-            <label>Senha</label>
+      
         </div>
 
         <div class="cadastroInserirDados">
-            <input type="text" name="senha" value="" placeholder="Digite sua Senha" maxlength="50">
+            <input type="password" name="senha" value="" placeholder="Digite sua Senha" maxlength="50">
         </div>
 
         <div class="cadastroInserirDados">
             <input id="button-cadastro" type="submit" name="">
         </div>
         </form>
-                    </div>
-        </div>
+     </div>
+</div>
     </main>
 
     

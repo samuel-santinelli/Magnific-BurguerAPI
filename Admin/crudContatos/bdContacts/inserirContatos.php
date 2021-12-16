@@ -20,7 +20,7 @@ function inserirContatos ($arrayContatos)
     ";
 
     
-    echo($sql);
+  
     $conexao = conexaoMysql();
 
     if (mysqli_query($conexao, $sql))
