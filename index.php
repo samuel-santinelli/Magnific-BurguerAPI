@@ -95,17 +95,15 @@
                     </div>
                 </div>
                 <ul id="lista">
-                    <li class="lista"><?=$modo?><a href=""></a> </li>
+                    <li class="lista"><a href=""></a> </li>
 
-                    <li class="lista"><?=$modo?><a href=""></a></li>
-
-                    <li class="lista"><?=$modo?><a href=""></a> </li>
+           
 
                     <li class="lista"> MENU <a href=""></a></li>
 
                 </ul>
             </div>
-            <button class="button" type="submit">Enviar</button>
+            <button id="button"  name="inputText" type="submit">Enviar</button>
             <div class="search">
 
                 <input class="pesquisa" type="text" placeholder="Pesquisa">
@@ -116,24 +114,24 @@
         <div class="produtos" data-aos="fade-left">
             <div class="cardproduto">
                 <div class="imagemProduto">
-                    <img class="imagemProduto" src="imagens/hamburguer1.jpg">
+                    <img class="imagemProduto">
                 </div>
-                <h1>Combo Rodeio </h1>
-                <p>Combo acompanhado por: 2 hamburguers Rodeio, batata frita e acompanhado com Refrigerante</p>
+                <h1 class="nomeCard"></h1>
+                <p  class="nomeDesc"></p>
 
-                <button class="buttonSaibaMais" type="submit">Saiba Mais</button>
-                <h2>R$23,00</h2>
+                <!-- <button class="buttonSaibaMais" type="submit">Saiba Mais</button> -->
+                <h2 class="nomePreco"></h2>
 
             </div>
             <div class="cardproduto">
                 <div class="imagemProduto">
                     <img class="imagemProduto" src="imagens/hamburguer2.jpg">
                 </div>
-                <h1>Lanche Rodeio</h1>
-                <p>Lanche acompanhado por: 2 hamburgueres, 2 aneis de cebola e queijo parmesão</p>
+                <h1 class="nomeCard">Lanche Rodeio</h1>
+                <p class="nomeDesc">Lanche acompanhado por: 2 hamburgueres, 2 aneis de cebola e queijo parmesão</p>
 
                 <button class="buttonSaibaMais" type="submit">Saiba Mais</button>
-                <h2>R$ 15,13</h2>
+                <h2 class="nomePreco">R$ 15,13</h2>
 
             </div>
 
@@ -141,44 +139,44 @@
                 <div class="imagemProduto">
                     <img class="imagemProduto" src="imagens/hamburguer3.jpg">
                 </div>
-                <h1>Lanche duplo Bacon</h1>
-                <p>Lanche acompanhado por: bacon, 2 hamburgueres acompanhado com queijo parmesão</p>
+                <h1 class="nomeCard">Lanche duplo Bacon</h1>
+                <p  class="nomeDesc">Lanche acompanhado por: bacon, 2 hamburgueres acompanhado com queijo parmesão</p>
 
                 <button class="buttonSaibaMais" type="submit">Saiba Mais</button>
-                <h2>R$ 17,45</h2>
+                <h2 class="nomePreco">R$ 17,45</h2>
 
             </div>
             <div class="cardproduto">
                 <div class="imagemProduto">
                     <img class="imagemProduto" src="imagens/hamburguer4.jpg">
                 </div>
-                <h1>Burguer Chicken</h1>
-                <p>Lanche acompanhado por: frango, 2 hamburgueres, cebola e batata frita de bônus</p>
+                <h1 class="nomeCard">Burguer Chicken</h1>
+                <p  class="nomeDesc">Lanche acompanhado por: frango, 2 hamburgueres, cebola e batata frita de bônus</p>
 
                 <button class="buttonSaibaMais" type="submit">Saiba Mais</button>
-                <h2>R$ 18,00</h2>
+                <h2 class="nomePreco">R$ 18,00</h2>
 
             </div>
             <div class="cardproduto">
                 <div class="imagemProduto">
                     <img class="imagemProduto" src="imagens/hamburguer5.jpg">
                 </div>
-                <h1>Burguer four</h1>
-                <p>Lanche acompanhado por: 4 hamburgueres, queijo parmesão, picles e bacon</p>
+                <h1 class="nomeCard">Burguer four</h1>
+                <p  class="nomeDesc">Lanche acompanhado por: 4 hamburgueres, queijo parmesão, picles e bacon</p>
 
                 <button class="buttonSaibaMais" type="submit">Saiba Mais</button>
-                <h2>R$ 21,90</h2>
+                <h2 class="nomePreco">R$ 21,90</h2>
 
             </div>
             <div class="cardproduto">
                 <div class="imagemProduto">
                     <img class="imagemProduto" src="imagens/hamburguer6.jpg">
                 </div>
-                <h1>Combo Master Burguer</h1>
-                <p>Combo acompanhado por: 1 hamburguer bacon, batata frita e 2 milk-shakes</p>
+                <h1 class="nomeCard">Combo Master Burguer</h1>
+                <p  class="nomeDesc">Combo acompanhado por: 1 hamburguer bacon, batata frita e 2 milk-shakes</p>
 
                 <button class="buttonSaibaMais" type="submit">Saiba Mais</button>
-                <h2>R$ 25,50</h2>
+                <h2 class="nomePreco">R$ 25,50</h2>
 
             </div>
         </div>

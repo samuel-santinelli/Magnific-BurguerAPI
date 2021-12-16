@@ -29,4 +29,11 @@ if($usuario != "" && $senha != ""){ // 5 passo, fazendo o tratamento
         echo(LOGIN_MSG_INVALIDO);
     }
 }
+
+    if($usuario == null || $senha == null )
+    echo ("<script>
+    alert('" . ERRO_CAIXA_VAZIA . "');
+    window.history.back();
+    </script>");
+
 ?>
