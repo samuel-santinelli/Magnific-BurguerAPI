@@ -25,11 +25,10 @@ body{
 }
   
 form{
-    height: 600px;
-    width: 1000px;
-    margin-left: 480px;
+    height: 1040px;
+    width: 1150px;
+    margin-left: 980px;
     background-color: #0A0C0F;
-    margin-top: 150px;
     min-height: 1000;
     border: solid 0.5px;
     border-image: linear-gradient(105deg, #D99879 0%, #D99879 100%) 1;
@@ -43,21 +42,26 @@ body, h1, p{
 }
 
 label{
-    font-size: 1.9rem;
+    height: 500px;
+    width: 500px;
+    font-size: 2.8rem;
     color: #D99879;
+    text-align: center;
+    margin-right: 190px;
 }
 
 #campos{
     height: 250px;
-    width: 400px;
-    margin-left: 250px;
-    margin-top: 60px;
+    width: auto;
+    text-align: center;
+    margin-top: 130px;
+ 
 
 }
 
 .cadastroCategorias  {
     width: 200px;
-    height: 54px;
+    height: 504px;
     float: left;
     text-align: right;
     font-size: 1.1em;
@@ -67,8 +71,8 @@ label{
 }
 
 input{
-    width: 327px;
-    height: 50px;
+    width: 397px;
+    height: 100px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -76,9 +80,18 @@ input{
 }
 
 input:hover{
-    cursor: pointer;
-   
+    background-color: #D99871;
+    transition: 2s;
+    border: 0;
+    color: #000;
+    border-radius: 40px;
+    padding-left: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+  
 }
+
+
 
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
@@ -212,11 +225,6 @@ body{
 header{
     height: 550px;
     width: 100%;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     border-bottom: solid 1px #000;
    
    
@@ -308,11 +316,19 @@ header{
 }
 
 #conteudo-main{
-    height: 1000px;
+    height: 1050px;
     width: 100%;
     background-image: url("../imagens/banner3.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#conteudo{
+    background-color: #D99879;
+    height: 1000px;
+    width: 500px;
 }
 
 footer{
@@ -360,16 +376,5 @@ h5{
     border-radius: 20px;
     color: #000;
     font-size: 1.1rem;
-}
-
-input:hover{
-    background-color: #D99871;
-    transition: 1s;
-    border: 0;
-    color: #000;
-    border-radius: 40px;
-    padding-left: 10px;
-    height: 45px;
-    margin-bottom: 20px;
 }
 

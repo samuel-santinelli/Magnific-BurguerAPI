@@ -11,16 +11,16 @@
 
     <!-- Conteudo principal -->
     <main>
-        <div id="conteudo">
-
+     
 
                     <!-- Conteudo do main -->
                     <div id="conteudo-main">
+                        
                     <div class="cadastroCategorias">
 
                     <form enctype="multipart/form-data" action="autenticar.php" name="frmCadastro" method="post">
                     <div id="campos">
-                    <label>Entre no seu Usuario</label>
+                    <label>Entre no seu Usúario</label>
             </div>
             <div class="cadastroInserirDados">
                 <input type="text" name="usuario" value="" placeholder="Digite seu nome" maxlength="45">
@@ -39,7 +39,7 @@
             <input id="button-cadastro" type="submit" name="">
         </div>
         </form>
-     </div>
+    
 </div>
     </main>
 
