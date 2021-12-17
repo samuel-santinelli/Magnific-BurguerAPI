@@ -8,8 +8,6 @@ $modo = (string) "Salvar";
 
 
 require_once('functions/config.php');
-
-
 require_once('controles/exibeDadosCategorias.php');
 
 if (isset($_SESSION['categorias']))
